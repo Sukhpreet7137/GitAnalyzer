@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevDetective App</title>
+    <script src="https://kit.fontawesome.com/fe6008a5cb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="mode-container">
+                <div><p class="para-1">DevDetective</p></div>
+                <div class="light">
+                    <p mode class="para-2">dark</p>
+                    <img onclick="darkmode1()" src="images/moon-icon.svg" alt="">
+                </div>
+                <div class="dark">
+                    <p mode class="para-2">light</p>
+                    <img onclick="lightmode1()" src="images/sun-icon.svg" alt="">
+                </div>
+            </div>
+            <form class="form-container">
+                <!-- <div class="form-content"> -->
+                    <img src="images/search-icon.svg">
+                    <input autocomplete="off" placeholder="Enter a GitHub username..." class="input-username" id="input">
+                    <button submit-btn type="submit" class="btn-search">Search</button>
+                <!-- </div> -->
+            </form>
+            <div class="profile-content">
+                <div class="img-content">
+                    <img class="img-cont" profile-pic>
+                </div>
+                <div class="other-content">
+                   <div class="name-date">
+                       <div>
+                            <h2 nam></h2>
+                            <a style="color: #0079ff;" target="_blank" github-profile></a>
+                       </div>
+                       <div>
+                            <p joined></p>
+                       </div>
+                   </div>
+                   <div>
+                       <p bio-data></p>
+                   </div>
+                   <div class="cnt">
+                       <div class="ffr-cnt">
+                           <p class="pad">Repos</p>
+                           <p class="p-2" repo></p>
+                       </div>
+                       <div class="ffr-cnt">
+                           <p class="pad">Followers</p>
+                           <p class="p-2" follow></p>
+                       </div>
+                       <div class="ffr-cnt">
+                           <p class="pad">Following</p>
+                           <p class="p-2" followi></p>
+                       </div>
+                   </div>
+                   <div class="grid">
+                        <div class="box" id="box-1">
+                            <img src="./images/location-icon.svg" alt="">
+                            <p loc></p>
+                        </div>
+                        <div class="box" id="box-2">
+                            <img src="./images/website-icon.svg" alt="">
+                            <a blog></a>
+                        </div>
+                        <div class="box" id="box-3">
+                            <img src="./images/twitter-icon.svg" alt="">
+                            <a twitter></a>
+                        </div>
+                        <div class="box" id="box-4">
+                            <img src="./images/company-icon.svg" alt="">
+                            <p company></p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
